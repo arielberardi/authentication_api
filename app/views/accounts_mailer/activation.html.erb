@@ -1,0 +1,5 @@
+<h1>Hi @account.first_name</h1>
+<p>Click on the link below to activate your account.</p>
+<!-- Use your front-end link here for activation purposes -->
+<a href='<%= activate_account_url(@account.id, @token) %>'>Activate your account</a>
+<p><strong>Note:</strong> this links is only valid for 10 minutes.<p>
